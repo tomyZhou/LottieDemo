@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    //支持zip包和json两种类型的url，且均支持简易加载和复杂方式加载。
+    //支持zip包和json两种类型的url，且均支持简易加载和复杂方式加载。  https://blog.csdn.net/qq_21154101/article/details/115773156
     private fun loadNetWorkLottie() {
         LottieCompositionFactory.fromUrl(this,"https://assets2.lottiefiles.com/packages/lf20_sf1bpcsj.json")
             .addListener{
